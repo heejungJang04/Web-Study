@@ -1,0 +1,64 @@
+@charset "utf-8";
+.main-background {
+    color: white;
+    width: 100%;
+    height: 400px;
+    background-image: url(../css/마라떡볶이_1_4_1_1_1_1_1.png);
+    background-size: cover; 
+   
+    background-repeat: no-repeat;
+    
+    background-position: center; 
+    padding: 1px;
+    text-align: center;
+    position: relative;
+
+}
+
+
+
+
+.main_title {
+    color: rgb(3, 2, 2);
+    font-size: 50px;
+    margin-top: 140px;
+    /* 왜 글자랑 사진에도 마진이 붙지? 마진 콜랩스 이펙트 현상*/
+    /* <div>박스의 두 위쪽 테두리가 겹치는 이 경우에는 마진도 합쳐짐
+    따라서 h4에 마진 줘도 윗 디브에 마진 주는거랑 똑같음 
+    => 메인 백그라운드에 패딩 주면 해결*/
+}
+
+.sub_title {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: -40px;
+}
+
+
+.main-button {
+    padding: 2px;
+    font-size: 20px;
+    background-color: rgba(237, 20, 20, 0.55);
+    color: rgb(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    width: 150px;
+    height: 70px;
+    margin-top: 25px; /* 버튼에 약간의 간격 추가 */
+    }
+
+.explain-box {
+    width: 70%;
+    padding: 30px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    margin: auto;
+    margin-top: -20px;
+    
+}
+
+.explain-box > h4, p {
+    font-size: 15px;
+}
